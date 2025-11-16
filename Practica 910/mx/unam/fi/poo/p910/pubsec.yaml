@@ -1,1 +1,6 @@
+name: mx.unam.fi.poo.p910
+description: Aplicación empaquetada con FQN
+version: 1.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
 
