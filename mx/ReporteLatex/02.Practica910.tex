@@ -58,15 +58,17 @@
 
 \section{Desarrollo}
 El código proporcionado trae en un solo archivo distintas clases y funciones independientes, las cuales podrán ser usadas por cualquier otra clase y método del mismo código. Este código simula un taller mecánico, en el cual se pueden registrar distintos tipos de vehículos (automóviles, motocicletas y camiones), y para cada vehículo se pueden registrar sus servicios realizados, así como generar reportes detallados de cada vehículo. Para lograr esto, se implementaron las siguientes clases: para ello comenzamos con la clase base Vehículo, la cual contiene atributos y métodos comunes a todos los vehículos. Luego, se crearon las clases derivadas Automóvil, Motocicleta y Camión, que heredan de la clase Vehículo y añaden atributos y métodos específicos para cada tipo de vehículo.
-
+Cada clase tiene un constructor que inicializa sus atributos, y se implementaron métodos para registrar servicios realizados a los vehículos, así como para generar reportes detallados de cada vehículo. Además, se implementaron mecanismos de manejo de excepciones para garantizar que el programa sea estable y pueda responder ante situaciones inesperadas, como la entrada de datos inválidos o errores en la ejecución. Se utilizaron bloques try-catch para capturar y manejar excepciones, proporcionando mensajes claros al usuario cuando ocurre un problema. También se implementaron pruebas unitarias para verificar el correcto funcionamiento de las clases y métodos, asegurando que los vehículos puedan ser registrados correctamente, los servicios puedan ser añadidos y los reportes generados sin errores. 
+El código final proporciona una simulación funcional de un taller mecánico, permitiendo la gestión de vehículos y servicios de manera eficiente y robusta. 
 
   
 
 \section{Diagramas UML}
 
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{Imagenes/Clase UML.png}
+    \includegraphics[width=\linewidth]{diagrama de mierda/Clase UML.png}
     \caption*{Diagrama UML de Clases}
 \end{figure}
 \begin{figure}[H]
