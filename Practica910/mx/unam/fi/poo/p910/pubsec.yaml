@@ -1,5 +1,6 @@
 name: mx.unam.fi.poo.p910
 description: Código de Dart empaquetado
-version: 1.0.0
+version: 0.1.0
+
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ^3.9.2
